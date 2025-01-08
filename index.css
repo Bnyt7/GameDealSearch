@@ -1,0 +1,89 @@
+body{
+    background-color: lightblue;
+}
+
+.container {
+    border-radius: 25px;
+    background-color: white;
+}
+
+#options{
+    background-color: azure;
+}
+#searchInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+#searchButton {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.deals-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.deals-table th, .deals-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+}
+
+.deal-title {
+    font-size: 16px;
+    font-weight: bold;
+    width: 20%;
+}
+
+.deal-thumbnail {
+    width:5%
+}
+
+.deal-thumbnail img {
+    width: 100px; 
+    height: 100px;
+    object-fit: scale-down; 
+}
+
+.deal-price {
+    font-size: 14px;
+    color: black;
+    width: 10%; 
+}
+
+.deal-steam-rate{
+    width: 8%;
+}
+
+.deal-deal-rate{
+    width: 5%;
+}
+
+.deal-link {
+    color: #3498db;
+    font-weight: bold;
+    width : 8%;
+}
+
+.deal-wishlist{
+    color : grey;
+    font-weight: bold;
+}
+
+#wishlistList
+{
+    width: auto;
+    display : none;
+}
